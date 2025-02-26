@@ -1,4 +1,5 @@
-﻿using tabuleiro;
+﻿using System;
+using tabuleiro;
 
 namespace Xadrez_Console
 {
@@ -16,7 +17,7 @@ namespace Xadrez_Console
                     }
                     else 
                     {
-                        Console.WriteLine( tab.peca(i,j) + " ");
+                        Console.Write( tab.peca(i,j) + " ");
                     }
                 }
                 Console.WriteLine();
